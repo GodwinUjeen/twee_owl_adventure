@@ -20,12 +20,12 @@ Twee Owl Adventure is a simple endless runner game.
 
 # Sample Screenshots
 
-<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss1.png" height="400" width="220"> &nbsp;&emsp;
-<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss2.png" height="400" width="220"> &nbsp;&emsp;
-<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss3.png" height="400" width="220"> &nbsp;&emsp;
-<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss4.png" height="400" width="220"> &nbsp;&emsp;
-<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss5.png" height="400" width="220"> &nbsp;&emsp;
-<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss6.png" height="400" width="220"> &nbsp;&emsp;
+<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss1.png" height="200" width="220"> &nbsp;&emsp;
+<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss2.png" height="200" width="420"> &nbsp;&emsp;
+<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss3.png" height="200" width="420"> &nbsp;&emsp;
+<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss4.png" height="200" width="420"> &nbsp;&emsp;
+<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss5.png" height="200" width="420"> &nbsp;&emsp;
+<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss6.png" height="200" width="420"> &nbsp;&emsp;
 
 ## Getting Started
 
