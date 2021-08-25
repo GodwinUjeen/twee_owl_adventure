@@ -4,7 +4,7 @@ Twee Owl Adventure is a simple endless runner game.
 
 # How to Play
 
-Guide the Twee Owl to explore the forest by avoiding obstacles.&nbsp; <img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/tweeOwl.gif" height="400" width="220"> &nbsp;&emsp;
+Guide the Twee Owl to explore the forest by avoiding obstacles.&nbsp; <img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/tweeOwl.gif" height="50" width="50"> &nbsp;&emsp;
 
 # Packages Used:
 
