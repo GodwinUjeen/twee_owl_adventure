@@ -8,24 +8,24 @@ Twee Owl Adventure is a simple endless runner game.
 
 # Packages Used:
 
-- [flame](https://pub.dev/packages/flame)
-- [hive](https://pub.dev/packages/hive)
-- [path_provider](https://pub.dev/packages/path_provider)
-- [provider](https://pub.dev/packages/provider)
-- [page_transition](https://pub.dev/packages/page_transition)
-- [firebase_core](https://pub.dev/packages/firebase_core)
-- [firebase_auth](https://pub.dev/packages/firebase_auth)
-- [google_sign_in](https://pub.dev/packages/google_sign_in)
-- [cloud_firestore](https://pub.dev/packages/cloud_firestore)
+- [Flame](https://pub.dev/packages/flame)
+- [Hive](https://pub.dev/packages/hive)
+- [Path Provider](https://pub.dev/packages/path_provider)
+- [Provider](https://pub.dev/packages/provider)
+- [Page Transition](https://pub.dev/packages/page_transition)
+- [Firebase Core](https://pub.dev/packages/firebase_core)
+- [Firebase Auth](https://pub.dev/packages/firebase_auth)
+- [Google Sign In](https://pub.dev/packages/google_sign_in)
+- [Cloud_Firestore](https://pub.dev/packages/cloud_firestore)
 
 # Sample Screenshots
 
-<img src = "" height="400" width="220"> &nbsp;&emsp;
-<img src = "" height="400" width="220"> &nbsp;&emsp;
-<img src = "" height="400" width="220"> &nbsp;&emsp;
-<img src = "" height="400" width="220"> &nbsp;&emsp;
-<img src = "" height="400" width="220"> &nbsp;&emsp;
-<img src = "" height="400" width="220"> &nbsp;&emsp;
+<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss1.png" height="400" width="220"> &nbsp;&emsp;
+<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss2.png" height="400" width="220"> &nbsp;&emsp;
+<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss3.png" height="400" width="220"> &nbsp;&emsp;
+<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss4.png" height="400" width="220"> &nbsp;&emsp;
+<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss5.png" height="400" width="220"> &nbsp;&emsp;
+<img src = "https://github.com/GodwinUjeen/twee_owl_adventure/blob/master/assets/images/Sample%20Screenshots/ss6.png" height="400" width="220"> &nbsp;&emsp;
 
 ## Getting Started
 
