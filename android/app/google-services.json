@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "278851308563",
+    "project_id": "twee-owl-adventure",
+    "storage_bucket": "twee-owl-adventure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278851308563:android:d87df54ec28ead3116c3e6",
+        "android_client_info": {
+          "package_name": "com.example.twee_owl_adventure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278851308563-av1tq91vep05lunhlihv8u1i6q1f4hcp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.twee_owl_adventure",
+            "certificate_hash": "6a5ed2f7c84da330aefddfc1024d040162255599"
+          }
+        },
+        {
+          "client_id": "278851308563-p6jv9dr1vhs2ksnhrr36gjlavk8objce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxBPVjJ-l8FcY7d9vyL7eL5RIO-QWed0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278851308563-p6jv9dr1vhs2ksnhrr36gjlavk8objce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
