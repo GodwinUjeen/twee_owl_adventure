@@ -17,7 +17,7 @@ Twee Owl Adventure is a simple endless runner game.
 - [Firebase Auth](https://pub.dev/packages/firebase_auth)
 - [Google Sign In](https://pub.dev/packages/google_sign_in)
 - [Cloud_Firestore](https://pub.dev/packages/cloud_firestore)
-- [share](https://pub.dev/packages/shares)
+- [Share](https://pub.dev/packages/shares)
 
 # To run the application
 
