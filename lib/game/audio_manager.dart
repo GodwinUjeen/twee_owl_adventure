@@ -1,8 +1,11 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flame/flame.dart';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 
 class AudioManager {
+
   AudioManager._internal();
 
   static AudioManager _instance = AudioManager._internal();
@@ -50,10 +53,19 @@ class AudioManager {
     _bgm!.value = flag;
   }
 
-  void setHighScore(int score) {
+  void resetHighScore(int score) {
+    _pref!.put('highScore', score);
+    _highScore!.value = score;
+  }
+
+  void setHighScore(int score) async {
     if (_highScore!.value < score) {
       _pref!.put('highScore', score);
       _highScore!.value = score;
+      await FirebaseFirestore.instance
+          .collection('users')
+          .doc(FirebaseAuth.instance.currentUser!.uid)
+          .update({"score": score});
     }
   }
 

@@ -105,8 +105,9 @@ class Owl extends AnimationComponent {
 
   void jump() {
     if (isOnGround()) {
-      AudioManager.instance.playSfx('jump.wav');
       this.speedY = -500;
+
+      AudioManager.instance.playSfx('jump.wav');
     }
   }
 }

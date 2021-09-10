@@ -1,7 +1,9 @@
 import 'dart:async';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:twee_owl_adventure/Screens/loginPage.dart';
 import 'package:twee_owl_adventure/Screens/main_menu.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -12,10 +14,32 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
+
   final Gradient gradient = LinearGradient(colors: [
     Color.fromRGBO(252, 186, 3, 1),
     Color.fromRGBO(252, 61, 3, 1),
   ]);
+
+
+
+  Widget getScreenId() {
+    return StreamBuilder<User?>(
+      stream: FirebaseAuth.instance.authStateChanges(),
+      builder: (BuildContext context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return Center(
+            child: CircularProgressIndicator(),
+          );
+        } else if (snapshot.hasData) {
+          return MainMenu();
+        } else if (snapshot.hasError) {
+          return LoginPage();
+        } else {
+          return LoginPage();
+        }
+      },
+    );
+  }
 
   void initState() {
     Timer(
@@ -23,7 +47,7 @@ class _SplashScreenState extends State<SplashScreen> {
       () => Navigator.pushReplacement(
         context,
         PageTransition(
-          child: MainMenu(),
+          child: getScreenId(),
           type: PageTransitionType.leftToRightWithFade,
         ),
       ),
@@ -48,7 +72,9 @@ class _SplashScreenState extends State<SplashScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(height: 70,),
+            SizedBox(
+              height: 70,
+            ),
             ShaderMask(
               shaderCallback: (bounds) => gradient.createShader(
                 Rect.fromLTWH(0, 0, bounds.width, bounds.height),

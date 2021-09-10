@@ -1,4 +1,6 @@
 import 'dart:ui';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flame/game/game.dart';
 import 'package:flutter/material.dart';
 import 'package:flame/components/parallax_component.dart';
@@ -18,6 +20,8 @@ import 'package:twee_owl_adventure/game/enemy_manager.dart';
 import 'package:twee_owl_adventure/game/tweeOwl.dart';
 
 class TweeOwlGame extends BaseGame with TapDetector, HasWidgetsOverlay {
+  final FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
+  final String userUid = FirebaseAuth.instance.currentUser!.uid;
   Owl? _owl;
   ParallaxComponent? _parallaxComponent;
   TextComponent? _scoreText;

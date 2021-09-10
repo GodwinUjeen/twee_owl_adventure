@@ -158,7 +158,8 @@ class Menu extends StatelessWidget {
         ),
         MaterialButton(
           onPressed: () {
-            Provider.of<ExitDialog>(context, listen: false).exitDialog(context);
+            Provider.of<ExitDialog>(context, listen: false)
+                .exitDialog(context);
           },
           elevation: 4.0,
           splashColor: Colors.white,

@@ -44,7 +44,7 @@ class EnemyManager extends Component with HasGameRef<TweeOwlGame> {
     // TODO: implement update
     _timer!.update(t);
 
-    var newSpawnLevel = (gameRef.score! ~/ 275);
+    var newSpawnLevel = (gameRef.score! ~/ 400);
     if (_spawnLevel < newSpawnLevel) {
       _spawnLevel = newSpawnLevel;
 
